@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ESNext",
+    "lib": ["ESNext"],          
+    /* Modules */
+    "module": "NodeNext",
+    "rootDir": "./src",
+    "moduleResolution": "NodeNext",
+    "baseUrl": "./",
+    "paths": {
+      "#types/*": ["./src/types/*"],
+      "#root/*": ["./src/*"]
+    },
+    "resolveJsonModule": true,
+    /* Emit */  
+    "outDir": "./dist",
+    "noEmitOnError": true,
+    "allowSyntheticDefaultImports": true,      
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,            
+
+    /* Type Checking */
+    "strict": true,
+    "noImplicitAny": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true
+  }
+}
